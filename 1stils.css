@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(225deg, #00fa8e 0%, #006eff 100%);
+    height: 100vh; 
+}
+
+
+.poga1{       
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px; 
+}
+
+a {
+    
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fde801;
+    text-decoration: none;
+    padding: 10px 30px;                     /* pogu teksta stili */
+    border: 5px solid #fde801;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    }
+    
+a:hover {
+    background-color: #fde801;
+    color: #ffffff;
+    transform: translateY(-5px);     /*animacija pogam*/
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    }
+
+#output {
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+h1{
+    text-align: center;
+    color: #fde801;
+}
+
+.container {
+    display: flex;
+    justify-content: center
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.pulkst{
+    color: #ffffff;
+    font-size: 200%;
+    background-color: #2171cd;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+
+.cipari{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 180%;    
+}
+
+.poga2{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.spelet{
+    color: #0b5f4f;
+    background: linear-gradient(135deg, #00b6c4 0%, #01bdbf 100%); 
+    border: 0;
+}

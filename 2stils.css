@@ -1,0 +1,156 @@
+body{
+    background: linear-gradient(135deg, #00fa8e 0%, #006eff 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Nosaukums{
+    color: #ffffff;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    background-color: #2171cd;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* atstarpe start izveles pogam un cilveka izveles */
+    justify-content: center;
+    margin: 50px;
+
+}
+
+/* izveles pogas*/
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* atstarpes starp trim pogam */
+    margin-top: 70px;
+}
+
+/* izveles pogu stili */
+.game-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffea00; /* Жёлтый фон */
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+/* pogu attelu izmeri */
+.game-button img {
+    width: 60px;
+    height: auto;
+}
+
+/* pogu nosaukumi */
+.game-button span {
+    font-size: 14px;
+    color: black;
+}
+
+/* pogas animacija: kad velc kursoru virs tas ta palielinas */
+.game-button:hover {
+    transform: scale(1.2);
+}
+
+/* cilveka un datora izveles lodzini */
+.right-panel {
+    display: flex;
+    justify-content: space-between; /* vienmerigi izvietojas */
+    gap: 20px; /* atstarpe starp 2 izvelem */
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #ffea00;
+}
+
+/* datora vai cilveka izveles lodzina nosaukums */
+.choice p {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.image-box {
+    background-color: #ffea00;
+    padding: 9px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+/* attelu izmers datora vai cilveka izveles logos */
+.image-box img {
+    width: 250px;
+    height: auto;
+}
+
+.tekst{
+    width: 300px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.poga {       
+    display: flex;
+    justify-content: left; /* centre horizontali */
+    margin-left: 30px;
+    align-items: center;
+}
+
+.spelet {       
+    display: block;       
+    margin: 0 auto; 
+    background: linear-gradient(135deg, #02accb 0%, #02a3ce 100%); 
+    border: 0px; 
+}
+
+
+a {
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+color: #fde801;
+text-decoration: none;
+padding: 10px 30px;                     /* pogu teksta stili */
+border: 5px solid #fde801;
+border-radius: 5px;
+background-color: #ffffff;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+a:hover {
+background-color: #fde801;
+color: #ffffff;
+transform: translateY(-5px);     /*animacija pogam*/
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+transform: scale(1.05);
+}
+

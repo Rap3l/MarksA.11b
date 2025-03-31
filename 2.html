@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 lapa</title>
+</head>
+<body>
+    
+    <div class="Nosaukums">
+        <p>Akmens šķēres papīrs!</p>
+    </div>
+    
+    <div class="container">
+        <div class="left-panel">
+            <button id="pirma"    class="game-button" >
+                <img src="atteli/im2.png">
+                <span>Akmens</span>
+            </button>
+
+            <button id="otra" class="game-button" >
+                <img src="atteli/im0.png">
+                <span>Šķēres</span>
+            </button>
+
+            <button id="tresa" class="game-button" >
+                <img src="atteli/im1.png">
+                <span>Papīrs</span>
+            </button>
+        </div>
+
+        <div class="right-panel">
+            <div class="choice">
+                    <h1>Jūs</h1>
+                <div class="image-box" id="playerChoice">
+                    <img class="img1" id="cilveks" src="atteli/im1.png" alt="Jūs">
+                </div>
+            </div>
+
+            <div class="choice">
+                    <h1>Dators</h1>
+                <div class="image-box" id="computerChoice">
+                    <img class="img2" id="random" src="atteli/im1.png" alt="Dators">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="tekst" id="pazinojums">
+    <h2 id="text"> Izvēlieties savu variantu no 3 piedāvātajiem, Jūs redzēsiet datora izvēlēto
+        variantu tikai kad uzspiedīsiet pogu "Spēlēt!"
+    </h2>
+    </div>
+    
+    <button id="btn" class="spelet" onclick="spelet()">
+        <a id="text">Spelet</a>
+    </button>
+
+<div class="poga">
+    <a href="1.html"><U></U>Uz pirmo lapu </a>
+</div>
+    
+
+
+    <link rel="stylesheet" href="2stils.css">
+    <script src="2scripts.js"></script>
+</body>
+</html>
