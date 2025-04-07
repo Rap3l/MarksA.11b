@@ -25,20 +25,55 @@ updateTime();
 setInterval(updateTime, 1000);
 
 
-const para = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-const nepara = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 
+const numbers = [1,2,3,4,5,6,7,8,
+                 9,10,11,12,13,14,
+                 15,16,17,18,19,20,
+                 21,22,23,24,25];
+//const nofiltrets = numbers.filter(funkcija)
 const button = document.getElementById("btn");
+
+
+
 function funkcija(){
-    x = prompt("Ievadi 1, ja gribi dabūt nepāra skaitļus un 2 ja pāra skaitļus")
-    if ( x === "1"){
-      document.getElementById('output2').textContent = "Šeit ir nepāra skaitļi: " + nepara
+  let inputs = prompt("Ievadi 2, 3 vai 5, lai nofiltrētu massīvu no 1 līdz 25!")
+  let cipars = Number(inputs)
+
+let cip1 = numbers.filter(ArDivi)
+console.log(cip1)
+
+  if (cipars === 2||3||5){
+
+    if(cipars === 2){
+      function ArDivi(element){
+        return element % 2 === 0
+      }
     }
-    else if ( x === "2"){
-      document.getElementById('output2').textContent = "Šeit ir pāra skaitļi: " + para
+
+    if(cipars === 3){
+      function ArTris(element){
+        return element % 3 === 0
+      }
     }
-    else{
-      funkcija()
+
+    if(cipars === 5){
+      function ArPieci(element){
+        return element % 5 === 0
+      }
     }
+
+  }
+
 }
 button.addEventListener("click", funkcija)
+
+
+let numbers2 = [1,2,3,4,5,6,7];
+let evenNums = numbers2.filter(isEven);
+
+document.getElementById('output2').textContent = evenNums;
+
+
+function isEven(element){
+    return element % 2 === 0;
+}

@@ -9,10 +9,10 @@ body{
 
 .Nosaukums{
     color: #ffffff;
-    font-size: 200%;
+    font-size: 220%;
     display: flex;
     justify-content: center;
-    background-color: #2171cd;
+    background: linear-gradient(135deg, #59ffb7 0%, #4e98f9 100%);
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
