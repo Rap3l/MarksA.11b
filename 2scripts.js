@@ -29,6 +29,8 @@ button3.addEventListener("click", funkcija3)
 
 
 const button4 = document.getElementById("btn");
+
+
 function funkcija4(){
     
     let randomNumber1 = Math.floor(Math.random() * 3);

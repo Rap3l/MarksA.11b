@@ -46,6 +46,9 @@ a:hover {
 h1{
     text-align: center;
     color: #fde801;
+    font-size: 225%;
+    color: #e9ff9a;
+    
 }
 
 .container {
@@ -63,7 +66,7 @@ input {
 .pulkst{
     color: #ffffff;
     font-size: 200%;
-    background: linear-gradient(225deg, #59ffb7 0%, #4e98f9 100%);
+    background: linear-gradient(225deg, #59ffb7 0%, #549eff 100%);
     height: 100px;
     display: flex;
     align-items: center;
@@ -71,7 +74,7 @@ input {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
- 
+
 }
 
 .cipari{

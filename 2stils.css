@@ -9,10 +9,10 @@ body{
 
 .Nosaukums{
     color: #ffffff;
-    font-size: 220%;
+    font-size: 200%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(135deg, #59ffb7 0%, #4e98f9 100%);
+    background: linear-gradient(135deg, #59ffb7 0%, #549eff 100%);
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -153,4 +153,3 @@ transform: translateY(-5px);     /*animacija pogam*/
 box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 transform: scale(1.05);
 }
-
